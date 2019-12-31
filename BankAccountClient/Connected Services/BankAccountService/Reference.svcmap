@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="52770042-b4d3-4fc9-8b87-777acbbdd975" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58732/BankAccountService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BankAccountService.xsd" MetadataType="Schema" ID="7d49cb61-a725-4996-9fe3-9e8b2eb5ee70" SourceId="1" SourceUrl="http://localhost:58732/BankAccountService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BankAccountService.disco" MetadataType="Disco" ID="87b229e4-66b7-46c1-9e36-aa4c9deb5414" SourceId="1" SourceUrl="http://localhost:58732/BankAccountService.svc?disco" />
+    <MetadataFile FileName="BankAccountService1.xsd" MetadataType="Schema" ID="fc308ab9-b9dd-43bc-9b77-66993b2d8c46" SourceId="1" SourceUrl="http://localhost:58732/BankAccountService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BankAccountService.wsdl" MetadataType="Wsdl" ID="b2450999-5e49-4b9e-a75a-d7bd87456857" SourceId="1" SourceUrl="http://localhost:58732/BankAccountService.svc?wsdl" />
+    <MetadataFile FileName="BankAccountService2.xsd" MetadataType="Schema" ID="d5dff115-beb6-4f78-9819-e26d73b52a2c" SourceId="1" SourceUrl="http://localhost:58732/BankAccountService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
