@@ -2,6 +2,7 @@
 
 namespace BankAccountService
 {
+    //Balance
     [DataContract]
     public class Balance
     {
